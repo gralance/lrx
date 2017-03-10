@@ -1,0 +1,28 @@
+
+html {
+  font-size: $fontSizeHtml;
+}
+
+body {
+  color: $color03;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  color: $color04;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: $color05;
+}
+
+canvas {
+  display: block;
+}
