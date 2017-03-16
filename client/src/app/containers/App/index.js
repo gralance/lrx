@@ -1,5 +1,5 @@
-import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
+import React, { PropTypes } from 'react';
 import style from './app.scss';
 
 /**
@@ -16,6 +16,7 @@ export default class App extends React.Component {
     return (
       <div className={style.wrapper}>
         <ul>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="counter">Counter</Link></li>
           <li><Link to="todo">Todo</Link></li>
         </ul>
