@@ -1,70 +1,70 @@
-## Booking Hackathon Respository
+## LRX
 
-### 環境需求
+### Environment require
 - [PHP 7 or up](http://php.net/)
 - [Composer](https://getcomposer.org/)
 - [Laravel 5.4 or up](https://laravel.com)
 - [Node 6.9.1 or up](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/zh-Hans/)
 
-### 安裝步驟
-先 clone 專案到你的電腦
+### Install
+clone LRX to your computer
 ```sh
-git clone https://github.com/sexyoung/booking-hackathon.git
+git clone https://github.com/sexyoung/lrx.git
 ```
 
-### 進到 booking-hackathon 資料夾
+### Enter lrx folder
 ```sh
-cd booking-hackathon
+cd folder
 ```
 
-### 安裝 composer 套件
+### Install laravel vendor
 ```sh
 composer install
 ```
 
-### 進到 client 資料夾
+### Enter client folder
 ```sh
 cd client
 ```
 
-### 安裝 前端套件
+### Install front-end packages
 ```sh
 yarn
 ```
 
-### 跑後端 server
-先到專案根目錄，然後
+### Run Laravel server
+Go to project root folder, then
 ```sh
 php artison serve
 ```
 
-### 跑前端 server
-先到client目錄，然後
+### Run front-end server
+Go client folder, then
 ```sh
 yarn start
 ```
 
 ### deploy production
-先到client目錄，然後
+Go client folder, then
 ```sh
 yarn run build
 ```
 
-然後去專案根目錄
+Go to project root folder, then
 ```sh
 php artison serve
 ```
 
-### 目錄說明
+### Folder intro
 ```
 app/
 bootstrap/
-client/ ← 前端開發區
+client/ ← front-end root folder
   src/
     app/
       ...
-      routes.js ← 後端路由
+      routes.js ← front-end route configure
   test/
   ...
 config/
@@ -73,8 +73,8 @@ public/
 resources/
 routes/
   ...
-  web.php  ← backend 路由
-  api.php  ← backend api 路由
+  web.php  ← backend route configure
+  api.php  ← backend api route configure
   ...
 storage/
 tests/
