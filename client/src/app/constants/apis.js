@@ -1,4 +1,4 @@
-const baseURL = process.env.baseApiURL;
+const baseURL = '/api/';
 export const todosApiURL = () => `${baseURL}todos`;
 export const todoApiURL  = () => `${baseURL}todo`;
 

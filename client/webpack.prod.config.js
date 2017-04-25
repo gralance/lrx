@@ -2,7 +2,7 @@ import webpack from 'webpack';
 import merge from 'webpack-merge';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import common from './webpack.config';
-import { baseApiURL, baseURL } from './dev.json';
+import { baseURL } from './dev.json';
 
 export default merge(common, {
   entry: './src/entry/main.js',
@@ -13,8 +13,7 @@ export default merge(common, {
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify('production'),
-        baseURL:    JSON.stringify(baseURL),
-        baseApiURL: JSON.stringify(baseApiURL),
+        baseURL:  JSON.stringify(baseURL),
       }
     }),
     new ExtractTextPlugin('[name]---[hash].css', { disable: false }),

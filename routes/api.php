@@ -14,8 +14,8 @@ use Illuminate\Http\Request;
 */
 Route::get('/todos', function(){
   return response()->json([
-    [ 'id' => str_random(5), 'todo' => 'blablabla', 'created_at' => '2017-03-09 11:00' ],
-    [ 'id' => str_random(5), 'todo' => 'blablabla', 'created_at' => '2017-03-09 13:00' ],
+    [ 'id' => str_random(15), 'todo' => 'blablabla', 'created_at' => '2017-03-09 11:00' ],
+    [ 'id' => str_random(15), 'todo' => 'blablabla', 'created_at' => '2017-03-09 13:00' ],
   ]);
 });
 

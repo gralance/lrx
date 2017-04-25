@@ -1,4 +1,3 @@
 {
-    "baseURL":    "https://ranking.sexyoung.tw",
-    "baseApiURL": "/api/"
+  "baseURL":    "https://ranking.sexyoung.tw"
 }
