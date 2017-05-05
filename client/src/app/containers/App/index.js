@@ -19,6 +19,7 @@ export default class App extends React.Component {
           <li><Link to="/">Home</Link></li>
           <li><Link to="counter">Counter</Link></li>
           <li><Link to="todo">Todo</Link></li>
+          <li><Link to="nogle">Nogle</Link></li>
         </ul>
         {this.props.children}
       </div>

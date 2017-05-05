@@ -16,6 +16,8 @@
     <% for (var css in htmlWebpackPlugin.files.css) { %>
     <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[css] %>">
     <% } %>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
 
     <!-- incompatible browser -->
     <style> .incompatibleBrowser { display: none; } </style>
@@ -35,5 +37,12 @@
     <% } %>
     <!-- incompatible browser -->
     <style> .no-js .incompatibleBrowser { display: block; } </style>
+    <script src="//www.google-analytics.com/cx/api.js?experiment=Mzxgf_YoS7epxkIXY3vZOw"></script>
+
+    <script>
+      // 讓 Google Analytics 選擇要顯示的版本
+      // var chosenVariation = cxApi.chooseVariation();
+      // console.warn(chosenVariation);
+    </script>
 </body>
 </html>

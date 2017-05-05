@@ -15,8 +15,10 @@ git clone https://github.com/sexyoung/lrx.git
 
 ### Enter lrx folder
 ```sh
-cd folder
+cd lrx
 ```
+
+# PLEASE CHANGE BRANCH TO nogle
 
 ### Install laravel vendor
 ```sh
@@ -36,7 +38,7 @@ yarn
 ### Run Laravel server
 Go to project root folder, then
 ```sh
-php artison serve
+php artison serve --host=0.0.0.0
 ```
 
 ### Run front-end server

@@ -89,6 +89,7 @@
     "mustache": "^2.3.0",
     "normalize.css": "^5.0.0",
     "react": "^15.4.2",
+    "react-bootstrap": "^0.30.10",
     "react-dom": "^15.4.2",
     "react-hot-loader": "^3.0.0-beta.6",
     "react-lite": "^0.15.33",
