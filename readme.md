@@ -47,16 +47,7 @@ Go client folder, then
 yarn start
 ```
 
-### deploy production
-Go client folder, then
-```sh
-yarn run build
-```
-
-Go to project root folder, then
-```sh
-php artison serve
-```
+## then open http://localhost:3000
 
 ### Folder intro
 ```
